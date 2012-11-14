@@ -5,14 +5,14 @@
 
 > 2. array中多逗号
 
-> * 数组结尾多逗号
+>  * 数组结尾多逗号
 
     var arr = [1, 2, 3,];
     for (var i = 0; i < arr.length; i++) alert(arr[i]);
     // output : 1, 2, 3, undefind @ IE
     // output : 1, 2, 3 @ other broswer
 
-> * 数组中间结尾都多逗号
+>  * 数组中间结尾都多逗号
 
     var arr = [1, 2, , 3, ];
     for (var i = 0; i < arr.length; i++) alert(arr[i]);
